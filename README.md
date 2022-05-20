@@ -4,7 +4,8 @@
 
 - Create React App (Boilerplate)
 - styled-components
-
+## Live URL:
+View the assignment live at: https://assignment-frontend-spottabl.netlify.app/
 ## Screenshots:
 
 <center>
