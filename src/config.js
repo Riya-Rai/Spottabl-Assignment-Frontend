@@ -1,0 +1,1 @@
+export const CSM_LOCALSTORAGE_KEY = "csm_list"
