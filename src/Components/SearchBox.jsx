@@ -108,7 +108,7 @@ export default function SearchBox({ setCsmList, csmList }) {
     }
     setMatchedResults((prev) => [selectedUsers[index], ...prev]);
     setSelectedUsers(
-      selectedUsers.filter((_item, itemIndex) => index != itemIndex)
+      selectedUsers.filter((_item, itemIndex) => parseInt( index) !== itemIndex)
     );
   };
 

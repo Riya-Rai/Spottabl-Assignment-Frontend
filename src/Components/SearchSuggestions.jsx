@@ -22,7 +22,7 @@ export default function SearchSuggestions({
 }) {
   const removeFromMatched = (index) => {
     const filtered = matchedResults.filter((result, resultIndex) => {
-      return resultIndex != index;
+      return resultIndex !== parseInt(index);
     });
     setMatchedResults(filtered);
   };
